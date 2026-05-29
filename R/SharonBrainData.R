@@ -12,7 +12,7 @@
 #'   \item{results}{Data frame with differential expression results}
 #' }
 #' @source \url{doi:10.1016/j.cell.2019.05.004}
-"brain"
+"gutbrain"
 
 #' Sample meta data for the gutbrain
 #'
@@ -33,5 +33,5 @@
 #'   \item{t_replicate}{Technical replicate. Either A or B, to denote between specific samples}
 #' }
 #' @source \url{doi:10.1016/j.cell.2019.05.004}
-"brain_metadata"
+"gutbrain_metadata"
 
