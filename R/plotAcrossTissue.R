@@ -11,7 +11,7 @@
 
 
 plotAcrossTissue <- function( x ) {
-  df <- data.frame(counts(brain, normalized=TRUE)[x,], brain_metadata$tissue, row.names = row.names(brain_metadata))
+  df <- data.frame(counts(gutbrain, normalized=TRUE)[x,], gutbrain_metadata$tissue, row.names = row.names(gutbrain_metadata))
   colnames(df) <- c("counts", "tissue")
   df$tissue<- fct_relevel( factor( df$tissue), "STR", "PFC")
   ggplot( df ) +
